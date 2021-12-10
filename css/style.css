@@ -194,7 +194,7 @@ body{
        width: 0;
        overflow: hidden;
    }
-   .main {
+   .main-details {
        height: 90vh;
        display: flex;
        justify-content: center;
@@ -210,3 +210,30 @@ body{
        height: 400px;
    }
    
+   .product-details-container h4 {
+       font-weight: 700;
+   }
+
+   .product-details-container h2 {
+       color: rgb(1, 85, 141);
+   }
+
+   .btn-buy {
+       box-shadow: 0 0 10px rgba(6, 59, 68, 0.89);
+       background-color: rgb(1, 85, 141);
+       color: #ffff;
+       border: none;
+       border-radius: 20px;
+       padding: 0 1.3rem;
+       height: 35px;
+   }
+
+   .btn-cart {
+    box-shadow: 0 0 10px rgba(6, 59, 68, 0.89);
+    color: rgb(1, 85, 141);
+    background-color: #ffff;
+    border: 1px solid rgb(1, 85, 141);
+    border-radius: 20px;
+    padding: 0 1.3rem;
+    height: 35px;
+   }

@@ -1,5 +1,5 @@
-const API="http://fakestoreapi.com/products/";
-const API_CATEGORIES="http://fakestoreapi.com/products/categories";
+const API="https://fakestoreapi.com/products/";
+const API_CATEGORIES="https://fakestoreapi.com/products/categories";
 
 /**
  *
@@ -58,8 +58,16 @@ products.forEach(function(product){
     productItem.appendChild(productTitle)
     productItem.appendChild(productDiscount)
     document.getElementById("products-container").appendChild(productItem)
-})
 
-}).catch((error)={
+    productItem.addEventListener("click",function(){
+        location.href="details.html"
+
+        sessionStorage.setItem("product",JSON.stringify(product));
+        
+    });
+});
 
 })
+.catch((error)=>{
+    console.log(error);
+});
