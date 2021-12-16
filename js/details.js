@@ -13,7 +13,7 @@ if(product){
             </p>
             <div class="row">
                 <div class="col-6">
-                    <button class="btn-buy"><i class="fal fa-money-bill-wave"></i> Buy Now </button>
+                    <button class="btn-buy" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fal fa-money-bill-wave"></i> Buy Now </button>
                 </div>
                 <div class="col-6">
                     <button class="btn-cart"><i class="far fa-cart-plus"></i> Add to Cart</button>
